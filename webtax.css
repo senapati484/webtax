@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Shadows+Into+Light&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 200vh;
+    background-color: rgb(250, 251, 251);
+}
+.space-between{
+    justify-content: space-between;
+}
+.item-center{
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.applyexplore{
+    size: 40px;
+    color: black;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aqua;
+    margin-right: 5px;
+}
+body .next .heading{
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: sticky;
+    top: 0;
+    padding-right: 20px;
+    width: 100%;
+    z-index: 10;
+}
+body .next .heading .name{
+    color: aqua;
+    padding-right: 20px;
+    width: 100%;
+}
+body .next .heading .name h1{
+    color: aqua;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+body .next .heading .name ul{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    list-style: none;
+}
+body .next .heading .name ul li a{
+    text-decoration: none;
+    size: 20px;
+    color: aqua;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+body .next .heading .name ul li a:hover{
+    background-color: aqua;
+    border-radius: 5px;
+    color: #fff;
+}
+body .next .heading .medioum{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body .next .heading .medioum img{
+    color: aqua;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body .next .heading .medioum input{
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body .next .heading .name{
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+body .next .heading .medioum ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+body .next .heading .medioum ul li a{
+    color: aqua;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+body .next .heading .medioum ul li a:hover{
+    border-bottom: 4px solid aqua;
+}
+body .next .heading2 .details{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+body .next .heading2 .details p{
+    size: 20px;
+}
+body .next .heading2 img{
+    width: 700px;
+}
+body .next .heading2 .details .lolheading{
+    margin: 0 200px;
+    margin-bottom: 50px;
+}
+body .next .heading .medioum ul li a .active:hover{
+    background-color: aqua;
+}
+body .next .heading3{
+    margin: 100px 0;
+}
+body .next .heading3 img{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 50px;
+}
+body .next .heading3 .details{
+    padding-top: 50px;
+    margin: 0 40px;
+    margin-bottom: 40px;
+}
+body .next .heading3 .details .lolheading{
+    margin: 30px 200px;
+}
+body .next .heading3 .details ul{
+    margin: 0 40px;
+}
+body .next .heading3 .details h3{
+    margin: 20px 40px;
+}
+.active{
+    background-color: rgb(69, 86, 91);
+    border-radius: 5px;
+}
+#first-h1{
+    color: aqua;
+    font-family: 'Ubuntu', sans-serif;
+}
+body .next .topicks .topex h1{
+    size: 50px;
+}
+body .next .topicks{
+    list-style: none;
+    margin: 40px 600px;
+}
+.recomented2{
+    color: aqua;
+    font-family: 'Ubuntu', sans-serif;
+}
+body .next .heading3 img .css{
+    box-shadow: none;
+    width: 100px;
+    height: 100px;
+}
